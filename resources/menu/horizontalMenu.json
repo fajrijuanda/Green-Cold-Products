@@ -1,0 +1,77 @@
+{
+  "menu": [
+    {
+      "url": "dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slugs": ["dashboard", "dashboard-product-detail}"]
+    },
+    
+    {
+      "menuHeader": "Data"
+    },
+    {
+      "url": "project/list",
+      "name": "Projects",
+      "icon": "menu-icon tf-icons ti ti-tir",
+      "slug": "project-list"
+    },
+    {
+      "name": "Products",
+      "icon": "menu-icon tf-icons ti ti-box",
+      "slug": "product",
+      "submenu": [
+        {
+          "url": "product/list",
+          "name": "Product List",
+          "slug": "product-list"
+        },
+        {
+          "url": "product/add",
+          "name": "Add Product",
+          "slug": "product-add"
+        },
+        {
+          "url": "product/category/list",
+          "name": "Category List",
+          "slug": "product-category-list"
+        }
+      ]
+    },
+    {
+      "name": "Users",
+      "icon": "menu-icon tf-icons ti ti-users",
+      "slug": "users",
+      "submenu": [
+        {
+          "url": "users/user-management/view",
+          "name": "User Management",
+          "slug": "users-user-management"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Settings"
+    },
+    {
+      "name": "Account",
+      "icon": "menu-icon tf-icons ti ti-user",
+      "slug": "account",
+      "submenu": [
+        {
+          "url": "account-my-account",
+          "name": "My Account",
+          "slug": "account-my-account"
+        },
+        {
+          "url": "account-settings-account",
+          "name": "Settings Account",
+          "slugs": [
+            "account-settings-account",
+            "account-settings-security"
+          ]
+        }
+      ]
+    }
+  ]
+}

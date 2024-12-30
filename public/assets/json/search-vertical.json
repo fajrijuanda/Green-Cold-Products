@@ -1,0 +1,44 @@
+{
+  "pages": [
+    {
+      "name": "Dashboard",
+      "icon": "ti-smart-home",
+      "url": "dashboard"
+    },
+    {
+      "name": "Projects",
+      "icon": "ti-tir",
+      "url": "project/list"
+    },
+    {
+      "name": "Product List",
+      "icon": "ti-box",
+      "url": "product/list"
+    },
+    {
+      "name": "Add Product",
+      "icon": "ti-box",
+      "url": "product/add"
+    },
+    {
+      "name": "Category List",
+      "icon": "ti-box",
+      "url": "product/category/list"
+    },
+    {
+      "name": "User Management",
+      "icon": "ti-users",
+      "url": "users/user-management/view"
+    },
+    {
+      "name": "My Account",
+      "icon": "ti-user",
+      "url": "account-my-account"
+    },
+    {
+      "name": "Settings Account",
+      "icon": "ti-user",
+      "url": "account-settings-account"
+    }
+  ]
+}
